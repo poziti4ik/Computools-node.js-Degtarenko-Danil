@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="container">
+        <h1  id = "cart"class="header">Server runing</h1>
+          <h2  id = "pes"class="header">H2</h2>
+        <a class="btn" href="/echo"><i class="material-icons right">arrow_forward</i>echo</a>
+    </div>
+
+<script>
+console.log("catfdasf")
+let  car = 0;
+let slon = 0;
+
+function cat(){
+car++;
+alert("Вы нажали h1 " + car + " раз");
+console.log(car);
+}
+
+function cats(){
+slon++;
+alert("Вы нажали h2 " + slon + " раз");
+console.log(car);
+}
+
+var h1 = document.getElementById("cart");
+h1.addEventListener("click",cat);
+
+var p = document.getElementById("pes");
+p.addEventListener("click", cats)
+
+</script>
+</body>
+</html>
